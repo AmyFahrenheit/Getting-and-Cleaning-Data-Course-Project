@@ -101,5 +101,4 @@ write.csv(EXTR2, file = "run_analysis.csv")
 
 ##Thank You for the Review!!!
 
-head(EXTR2)
 
