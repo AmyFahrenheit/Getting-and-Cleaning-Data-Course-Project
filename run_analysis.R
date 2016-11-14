@@ -96,9 +96,9 @@ EXTR2$ID=seq.int(nrow(EXTR2))
 ##"Switching Off" Row Names:
 row.names(EXTR2) <- NULL
 
-##Exporting the New Dataset as CSV File:
+##Exporting the New Dataset as CSV and TXT Files:
 write.csv(EXTR2, file = "run_analysis.csv")
-
+write.table(EXTR2, file = "run_analysis.txt", row.names = FALSE)
 ##Thank You for the Review!!!
 
 
